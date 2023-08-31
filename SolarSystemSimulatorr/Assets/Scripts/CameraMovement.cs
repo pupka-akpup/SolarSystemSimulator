@@ -74,7 +74,7 @@ public class CameraMovement : MonoBehaviour
             else if (Input.GetKeyDown(KeyCode.F))
             {
                 follow = false; // Stop following
-                counter = spaceBodies.Length - 1; // Reset counter
+                counter = spaceBodies.Length - 2; // Reset counter
                 canvas.GetComponent<CanvasChanges>().HideTexts(); // Hide UI texts
             }
             else
@@ -157,7 +157,7 @@ public class CameraMovement : MonoBehaviour
     public void SetBodies(SpaceBody[] spaceBodies)
     {
         this.spaceBodies = spaceBodies;
-        counter = spaceBodies.Length - 1;
+        counter = spaceBodies.Length - 2;
     }
 
     // Find the index of the currently followed space body

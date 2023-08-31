@@ -45,7 +45,7 @@ ScriptsOnlyBuild:
     methodName: ClickOnQuit
   - assembly: Assembly-CSharp
     fullTypeName: Menu
-    methodName: ClickOnPlay
+    methodName: ClickOnStart
   - assembly: Assembly-CSharp
     fullTypeName: SettingsScript
     methodName: ChangingInput
@@ -78,21 +78,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1596}
+      Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 1648}
+      Script: {instanceID: 1650}
     - Class: 114
-      Script: {instanceID: 1802}
+      Script: {instanceID: 1804}
     - Class: 114
-      Script: {instanceID: 2050}
+      Script: {instanceID: 2052}
     - Class: 114
-      Script: {instanceID: 2344}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2424}
+      Script: {instanceID: 2426}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2668}
+      Script: {instanceID: 2670}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -139,27 +139,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1596}
+      Script: {instanceID: 1556}
     - Class: 114
-      Script: {instanceID: 1648}
+      Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 1694}
+      Script: {instanceID: 1650}
     - Class: 114
-      Script: {instanceID: 1802}
+      Script: {instanceID: 1696}
     - Class: 114
-      Script: {instanceID: 1848}
+      Script: {instanceID: 1804}
     - Class: 114
-      Script: {instanceID: 1890}
+      Script: {instanceID: 1850}
     - Class: 114
-      Script: {instanceID: 2050}
+      Script: {instanceID: 1892}
     - Class: 114
-      Script: {instanceID: 2344}
+      Script: {instanceID: 2052}
     - Class: 114
-      Script: {instanceID: 2424}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2426}
     - Class: 114
-      Script: {instanceID: 2704}
+      Script: {instanceID: 2538}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -200,23 +200,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1596}
+      Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 1648}
+      Script: {instanceID: 1650}
     - Class: 114
-      Script: {instanceID: 1802}
+      Script: {instanceID: 1804}
     - Class: 114
-      Script: {instanceID: 2050}
+      Script: {instanceID: 2052}
     - Class: 114
-      Script: {instanceID: 2132}
+      Script: {instanceID: 2134}
     - Class: 114
-      Script: {instanceID: 2344}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2424}
+      Script: {instanceID: 2426}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2696}
+      Script: {instanceID: 2698}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -246,6 +246,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 6656afb7277a5ae51434aaa50c3384c2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CanvasChanges
   - hash:
       serializedVersion: 2
       Hash: 16c8cbd24a32f9d6625615e0e9098073
@@ -278,7 +284,7 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: 50bfd34c2562be2c7a624d4486e4b940
+      Hash: df59ccac7d7842fd17f61c2ff9a805cf
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CameraMovement
@@ -510,15 +516,9 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SettingsScript
-  - hash:
-      serializedVersion: 2
-      Hash: aeb386c5f45ff53ca410b9fca235459e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CanvasChanges
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Settings.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/AAAAAA/WORKSWORKS/SolarSystemSimulatorr.exe
+  playerPath: C:/AAAAAA/FinalSolarSystemSimulator/SolarSystemSimulatorr.exe
